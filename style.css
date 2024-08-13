@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#F5EBDC;
+}
+.nav{
+    margin-bottom: 500px;
+}
+.container{
+    position: relative;
+}
+.logo{
+    position:absolute;
+    /* border:solid 1px red; */
+    background-image: url('./img/logo.png');
+    background-size: cover;
+    width: 700px;
+    height: 700px;
+    right: 33%;
+    top: 50%;
+}
+.fire{
+    position:absolute;
+    background-image:url('./img/fire.png');
+    background-size:cover;
+    width: 240px;
+    height: 300px;
+    top: 350px;
+    right: 53%;
+    z-index: -1;
+    transform:rotate(-30deg);
+}
+.chicken{
+    position: absolute;
+    background-image:url('./img/chicken.png');
+    background-size:cover;
+    width: 370px;
+    height: 390px;
+    top:300px;
+    right: 35%;
+    z-index: -1;
+    transform: rotate(25deg);
+}
+.burger{
+    position: absolute;
+    background-image:url('./img/burger.png');
+    background-size:cover;
+    width: 250px;
+    height: 230px;
+    top: 250px;
+    right: 45%;
+    z-index: -1;
+    transform:rotate(-10deg);
+
+}
+.scrolldown{
+    position: absolute;
+    top: 47vw;
+    right: 45%;
+}
+h1{
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style:normal;
+    font-size: 50px;
+}
+
+.wowza{
+    border:solid 1px #F5EBDC;
+    margin-bottom:90vw ;
+}
+.go{
+    top:70vw;
+    right: 26%;
+    border:solid 1px red;
+    border-radius:30px;
+    padding: 20px;
+    position:absolute;
+    font-size: 100px;
+    background-color:#502314;
+    opacity: -200;
+}
+.go a{
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style:normal;
+    font-size: 100px;
+    color:white;
+    text-decoration: none;
+}
+.cartoon{
+    opacity: -200;
+    top: 50vw;
+    left: 30px;
+    position:absolute;
+    background-image:url('./img/cartoon.png');
+    background-size: cover;
+    width: 570px;
+    height: 750px;
+}
+.content{
+    position:absolute;
+    top: 55vw;
+    right: 2%;
+    width: 65vw;
+    opacity: -400;
+}
